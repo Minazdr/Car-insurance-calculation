@@ -1,0 +1,148 @@
+body {
+  direction: rtl;
+  font-family: vazir-medium;
+}
+.btn.btn-raised.btn-primary {
+  background-color: #dee0df !important;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+}
+.container {
+  width: 500px;
+
+  margin: auto;
+  margin-top: 100px;
+}
+header {
+  background-color: #d3dde6;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header h1 {
+  font-size: 22px;
+  margin: 0;
+  text-align: center;
+}
+
+.error {
+  background-color: #908db8;
+  border: 1px solid #f4511e;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f4511e;
+}
+.error p {
+  margin: 0;
+}
+#content {
+  margin-top: 60px;
+  background-color: white;
+  -webkit-box-shadow: 0px 21px 46px -15px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 21px 46px -15px rgba(0, 0, 0, 1);
+  box-shadow: 0px 21px 46px -15px rgba(0, 0, 0, 1);
+}
+.content-form {
+  margin-top: 30px;
+}
+#loading img {
+  display: none;
+  margin: 0 auto;
+}
+#result {
+  margin-bottom: 40px;
+}
+#result div {
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+#result div p {
+  margin-bottom: 0;
+}
+#result div p.header {
+  background-color: #d3dde6;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#request-quote {
+  direction: rtl;
+}
+
+.full-width {
+  width: 100%;
+  text-align: right;
+}
+
+.padding-right {
+  padding-right: 20px;
+}
+
+label {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+input[type="radio"] {
+  vertical-align: middle;
+}
+
+select {
+  width: 60px;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("Vazir-Bold.eot");
+  src: url("Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Bold.woff2") format("woff2"),
+    url("Vazir-Bold.woff") format("woff"),
+    url("Vazir-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir-bold;
+  src: url("Vazir-Black.eot");
+  src: url("Vazir-Black.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Black.woff2") format("woff2"),
+    url("Vazir-Black.woff") format("woff"),
+    url("Vazir-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir-medium;
+  src: url("Vazir-Medium.eot");
+  src: url("Vazir-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Medium.woff2") format("woff2"),
+    url("Vazir-Medium.woff") format("woff"),
+    url("Vazir-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("Vazir-Light.eot");
+  src: url("Vazir-Light.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Light.woff2") format("woff2"),
+    url("Vazir-Light.woff") format("woff"),
+    url("Vazir-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("Vazir-Thin.eot");
+  src: url("Vazir-Thin.eot?#iefix") format("embedded-opentype"),
+    url("Vazir-Thin.woff2") format("woff2"),
+    url("Vazir-Thin.woff") format("woff"),
+    url("Vazir-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
